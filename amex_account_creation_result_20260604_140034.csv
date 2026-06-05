@@ -1,0 +1,118 @@
+row_number,mid,status,reason,attached_to_node_reference,mid_reference,payment_method,_type,merchant_reference,request_payload,response_status_code,response_body
+2,1736692657,SKIPPED,AMERICAN_EXPRESS already exists,fbec38c1-1f95-489d-8eeb-7ac320deb85e,c5fea869-670a-4784-9160-a445a17d1515,AMERICAN_EXPRESS,merchant,,,,
+3,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,
+4,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,
+5,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,
+6,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,
+7,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,
+8,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,
+9,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,
+10,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,
+11,001736692657,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4,AMERICAN_EXPRESS,merchant,,,,
+12,001000000044,SUCCESS,AMERICAN_EXPRESS account created successfully,4ec64d0d-95ba-43eb-b069-37e203b5c898,af9db4e2-d5a6-4f23-8233-bfef050fa6a0,,merchant,4ec64d0d-95ba-43eb-b069-37e203b5c898,"{""name"": ""abdous"", ""midRef"": ""af9db4e2-d5a6-4f23-8233-bfef050fa6a0"", ""paymentMethod"": ""AMERICAN_EXPRESS"", ""currency"": ""USD"", ""channel"": [], ""enabled"": true, ""amexMid"": null, ""paymentProcessor"": ""NETWORK_INTERNATIONAL"", ""disabledOperations"": [""void""], ""threeDsId"": null, ""secretKey"": """"}",201,"{
+  ""_links"" : {
+    ""self"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/0d770f02-eb29-4cc1-a935-5b0baf73f80a""
+    },
+    ""enable"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/0d770f02-eb29-4cc1-a935-5b0baf73f80a/enable""
+    },
+    ""disable"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/0d770f02-eb29-4cc1-a935-5b0baf73f80a/disable""
+    }
+  },
+  ""reference"" : ""0d770f02-eb29-4cc1-a935-5b0baf73f80a"",
+  ""currency"" : ""USD"",
+  ""paymentMethod"" : {
+    ""type"" : ""card"",
+    ""name"" : ""AMERICAN_EXPRESS""
+  },
+  ""name"" : ""abdous"",
+  ""merchantType"" : 5399,
+  ""enabled"" : true,
+  ""channel"" : [ ""Ecom"" ],
+  ""secretKey"" : """",
+  ""mid"" : ""001000000044"",
+  ""chainId"" : ""200080144922"",
+  ""tids"" : [ ""123456789123"" ],
+  ""acquirerId"" : ""200"",
+  ""merchantAggregator"" : false,
+  ""aftInternational"" : false,
+  ""merchantPans"" : [ ],
+  ""paymentProcessor"" : ""NETWORK_INTERNATIONAL"",
+  ""nodeConfig"" : {
+    ""reference"" : ""0d770f02-eb29-4cc1-a935-5b0baf73f80a"",
+    ""currency"" : ""USD"",
+    ""paymentMethod"" : {
+      ""type"" : ""card"",
+      ""name"" : ""AMERICAN_EXPRESS""
+    },
+    ""name"" : ""abdous"",
+    ""merchantType"" : 5399,
+    ""enabled"" : true,
+    ""channel"" : [ ""Ecom"" ],
+    ""secretKey"" : """",
+    ""mid"" : ""001000000044"",
+    ""chainId"" : ""200080144922"",
+    ""tids"" : [ ""123456789123"" ],
+    ""acquirerId"" : ""200"",
+    ""merchantAggregator"" : false,
+    ""aftInternational"" : false,
+    ""merchantPans"" : [ ],
+    ""paymentProcessor"" : ""NETWORK_INTERNATIONAL""
+  }
+}"
+13,500005000,SUCCESS,AMERICAN_EXPRESS account created successfully,4ec64d0d-95ba-43eb-b069-37e203b5c898,d40ea189-b3d0-458e-beae-08327f0d8945,,merchant,4ec64d0d-95ba-43eb-b069-37e203b5c898,"{""name"": ""abdous"", ""midRef"": ""d40ea189-b3d0-458e-beae-08327f0d8945"", ""paymentMethod"": ""AMERICAN_EXPRESS"", ""currency"": ""USD"", ""channel"": [], ""enabled"": true, ""amexMid"": null, ""paymentProcessor"": ""NETWORK_INTERNATIONAL"", ""disabledOperations"": [""void""], ""threeDsId"": null, ""secretKey"": """"}",201,"{
+  ""_links"" : {
+    ""self"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c""
+    },
+    ""enable"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c/enable""
+    },
+    ""disable"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c/disable""
+    }
+  },
+  ""reference"" : ""9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c"",
+  ""currency"" : ""USD"",
+  ""paymentMethod"" : {
+    ""type"" : ""card"",
+    ""name"" : ""AMERICAN_EXPRESS""
+  },
+  ""name"" : ""abdous"",
+  ""merchantType"" : 5399,
+  ""enabled"" : true,
+  ""channel"" : [ ""Ecom"" ],
+  ""secretKey"" : """",
+  ""mid"" : ""500005000"",
+  ""chainId"" : ""200080144922"",
+  ""tids"" : [ ],
+  ""acquirerId"" : ""200"",
+  ""merchantAggregator"" : true,
+  ""aftInternational"" : false,
+  ""merchantPans"" : [ ],
+  ""paymentProcessor"" : ""NETWORK_INTERNATIONAL"",
+  ""nodeConfig"" : {
+    ""reference"" : ""9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c"",
+    ""currency"" : ""USD"",
+    ""paymentMethod"" : {
+      ""type"" : ""card"",
+      ""name"" : ""AMERICAN_EXPRESS""
+    },
+    ""name"" : ""abdous"",
+    ""merchantType"" : 5399,
+    ""enabled"" : true,
+    ""channel"" : [ ""Ecom"" ],
+    ""secretKey"" : """",
+    ""mid"" : ""500005000"",
+    ""chainId"" : ""200080144922"",
+    ""tids"" : [ ],
+    ""acquirerId"" : ""200"",
+    ""merchantAggregator"" : true,
+    ""aftInternational"" : false,
+    ""merchantPans"" : [ ],
+    ""paymentProcessor"" : ""NETWORK_INTERNATIONAL""
+  }
+}"
+14,0000202408,SKIPPED,AMERICAN_EXPRESS already exists,f99b56a2-7f55-4164-9ef7-47e83e3e52bf,d942e455-29db-40a5-8822-5d945eb2ef64,AMERICAN_EXPRESS,merchant_organisation_unit,,,,

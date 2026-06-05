@@ -1,0 +1,122 @@
+row_number,mid,status,reason,attached_to_node_reference,mid_reference,payment_method,_type,merchant_reference,amex_mid,request_payload,response_status_code,response_body
+2,1736692657,SKIPPED,AMERICAN_EXPRESS already exists,fbec38c1-1f95-489d-8eeb-7ac320deb85e,c5fea869-670a-4784-9160-a445a17d1515,AMERICAN_EXPRESS,merchant,,,,,
+3,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,,
+4,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,,
+5,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,,
+6,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,,
+7,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,,
+8,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,,
+9,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,,
+10,200860215413,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,AMERICAN_EXPRESS,merchant,,,,,
+11,001736692657,SKIPPED,AMERICAN_EXPRESS already exists,4ec64d0d-95ba-43eb-b069-37e203b5c898,6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4,AMERICAN_EXPRESS,merchant,,,,,
+12,001000000044,SUCCESS,AMERICAN_EXPRESS account created successfully,4ec64d0d-95ba-43eb-b069-37e203b5c898,af9db4e2-d5a6-4f23-8233-bfef050fa6a0,,merchant,4ec64d0d-95ba-43eb-b069-37e203b5c898,9763661477,"{""name"": ""amexIdTest"", ""midRef"": ""af9db4e2-d5a6-4f23-8233-bfef050fa6a0"", ""paymentMethod"": ""AMERICAN_EXPRESS"", ""currency"": ""USD"", ""channel"": [], ""enabled"": true, ""amexMid"": ""9763661477"", ""paymentProcessor"": ""NETWORK_INTERNATIONAL"", ""disabledOperations"": [""void""], ""threeDsId"": null, ""secretKey"": """"}",201,"{
+  ""_links"" : {
+    ""self"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/15dea479-919f-4866-8146-d03ea752e71b""
+    },
+    ""enable"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/15dea479-919f-4866-8146-d03ea752e71b/enable""
+    },
+    ""disable"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/15dea479-919f-4866-8146-d03ea752e71b/disable""
+    }
+  },
+  ""reference"" : ""15dea479-919f-4866-8146-d03ea752e71b"",
+  ""currency"" : ""USD"",
+  ""paymentMethod"" : {
+    ""type"" : ""card"",
+    ""name"" : ""AMERICAN_EXPRESS""
+  },
+  ""name"" : ""amexIdTest"",
+  ""merchantType"" : 5399,
+  ""enabled"" : true,
+  ""channel"" : [ ""Ecom"" ],
+  ""secretKey"" : """",
+  ""mid"" : ""001000000044"",
+  ""chainId"" : ""200080144922"",
+  ""tids"" : [ ""123456789123"" ],
+  ""acquirerId"" : ""200"",
+  ""merchantAggregator"" : false,
+  ""aftInternational"" : false,
+  ""amexMid"" : ""9763661477"",
+  ""merchantPans"" : [ ],
+  ""paymentProcessor"" : ""NETWORK_INTERNATIONAL"",
+  ""nodeConfig"" : {
+    ""reference"" : ""15dea479-919f-4866-8146-d03ea752e71b"",
+    ""currency"" : ""USD"",
+    ""paymentMethod"" : {
+      ""type"" : ""card"",
+      ""name"" : ""AMERICAN_EXPRESS""
+    },
+    ""name"" : ""amexIdTest"",
+    ""merchantType"" : 5399,
+    ""enabled"" : true,
+    ""channel"" : [ ""Ecom"" ],
+    ""secretKey"" : """",
+    ""mid"" : ""001000000044"",
+    ""chainId"" : ""200080144922"",
+    ""tids"" : [ ""123456789123"" ],
+    ""acquirerId"" : ""200"",
+    ""merchantAggregator"" : false,
+    ""aftInternational"" : false,
+    ""amexMid"" : ""9763661477"",
+    ""merchantPans"" : [ ],
+    ""paymentProcessor"" : ""NETWORK_INTERNATIONAL""
+  }
+}"
+13,500005000,SUCCESS,AMERICAN_EXPRESS account created successfully,4ec64d0d-95ba-43eb-b069-37e203b5c898,d40ea189-b3d0-458e-beae-08327f0d8945,,merchant,4ec64d0d-95ba-43eb-b069-37e203b5c898,9762759900,"{""name"": ""amexIdTest"", ""midRef"": ""d40ea189-b3d0-458e-beae-08327f0d8945"", ""paymentMethod"": ""AMERICAN_EXPRESS"", ""currency"": ""USD"", ""channel"": [], ""enabled"": true, ""amexMid"": ""9762759900"", ""paymentProcessor"": ""NETWORK_INTERNATIONAL"", ""disabledOperations"": [""void""], ""threeDsId"": null, ""secretKey"": """"}",201,"{
+  ""_links"" : {
+    ""self"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/2736d17a-fb9b-4fea-a750-d52d999128da""
+    },
+    ""enable"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/2736d17a-fb9b-4fea-a750-d52d999128da/enable""
+    },
+    ""disable"" : {
+      ""href"" : ""https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/2736d17a-fb9b-4fea-a750-d52d999128da/disable""
+    }
+  },
+  ""reference"" : ""2736d17a-fb9b-4fea-a750-d52d999128da"",
+  ""currency"" : ""USD"",
+  ""paymentMethod"" : {
+    ""type"" : ""card"",
+    ""name"" : ""AMERICAN_EXPRESS""
+  },
+  ""name"" : ""amexIdTest"",
+  ""merchantType"" : 5399,
+  ""enabled"" : true,
+  ""channel"" : [ ""Ecom"" ],
+  ""secretKey"" : """",
+  ""mid"" : ""500005000"",
+  ""chainId"" : ""200080144922"",
+  ""tids"" : [ ],
+  ""acquirerId"" : ""200"",
+  ""merchantAggregator"" : true,
+  ""aftInternational"" : false,
+  ""amexMid"" : ""9762759900"",
+  ""merchantPans"" : [ ],
+  ""paymentProcessor"" : ""NETWORK_INTERNATIONAL"",
+  ""nodeConfig"" : {
+    ""reference"" : ""2736d17a-fb9b-4fea-a750-d52d999128da"",
+    ""currency"" : ""USD"",
+    ""paymentMethod"" : {
+      ""type"" : ""card"",
+      ""name"" : ""AMERICAN_EXPRESS""
+    },
+    ""name"" : ""amexIdTest"",
+    ""merchantType"" : 5399,
+    ""enabled"" : true,
+    ""channel"" : [ ""Ecom"" ],
+    ""secretKey"" : """",
+    ""mid"" : ""500005000"",
+    ""chainId"" : ""200080144922"",
+    ""tids"" : [ ],
+    ""acquirerId"" : ""200"",
+    ""merchantAggregator"" : true,
+    ""aftInternational"" : false,
+    ""amexMid"" : ""9762759900"",
+    ""merchantPans"" : [ ],
+    ""paymentProcessor"" : ""NETWORK_INTERNATIONAL""
+  }
+}"
+14,0000202408,SKIPPED,AMERICAN_EXPRESS already exists,f99b56a2-7f55-4164-9ef7-47e83e3e52bf,d942e455-29db-40a5-8822-5d945eb2ef64,AMERICAN_EXPRESS,merchant_organisation_unit,,,,,

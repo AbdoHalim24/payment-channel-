@@ -1,0 +1,1225 @@
+2026-06-04 12:29:09,443 | INFO | Script started
+2026-06-04 12:29:09,443 | INFO | Reading CSV file: mid_merchant_info.csv
+2026-06-04 12:29:09,444 | INFO | CSV file loaded successfully
+2026-06-04 12:29:09,444 | INFO | Total rows found: 13
+2026-06-04 12:29:09,445 | INFO | ----------------------------------------
+2026-06-04 12:29:09,445 | INFO | [1/13] Processing CSV row: 2
+2026-06-04 12:29:09,445 | INFO | Started processing row number: 2
+2026-06-04 12:29:09,445 | INFO | mid: 1736692657
+2026-06-04 12:29:09,445 | INFO | attached_to_node_reference: fbec38c1-1f95-489d-8eeb-7ac320deb85e
+2026-06-04 12:29:09,445 | INFO | mid_reference: c5fea869-670a-4784-9160-a445a17d1515
+2026-06-04 12:29:09,445 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,445 | INFO | _type: merchant
+2026-06-04 12:29:09,445 | INFO | Skipping MID 1736692657 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | Result for row 2, MID 1736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | ----------------------------------------
+2026-06-04 12:29:09,445 | INFO | [2/13] Processing CSV row: 3
+2026-06-04 12:29:09,445 | INFO | Started processing row number: 3
+2026-06-04 12:29:09,445 | INFO | mid: 200860215413
+2026-06-04 12:29:09,445 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,445 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 12:29:09,445 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,445 | INFO | _type: merchant
+2026-06-04 12:29:09,445 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | Result for row 3, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | ----------------------------------------
+2026-06-04 12:29:09,445 | INFO | [3/13] Processing CSV row: 4
+2026-06-04 12:29:09,445 | INFO | Started processing row number: 4
+2026-06-04 12:29:09,445 | INFO | mid: 200860215413
+2026-06-04 12:29:09,445 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,445 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 12:29:09,445 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,445 | INFO | _type: merchant
+2026-06-04 12:29:09,445 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | Result for row 4, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | ----------------------------------------
+2026-06-04 12:29:09,445 | INFO | [4/13] Processing CSV row: 5
+2026-06-04 12:29:09,445 | INFO | Started processing row number: 5
+2026-06-04 12:29:09,445 | INFO | mid: 200860215413
+2026-06-04 12:29:09,445 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,445 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 12:29:09,445 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,445 | INFO | _type: merchant
+2026-06-04 12:29:09,445 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | Result for row 5, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | ----------------------------------------
+2026-06-04 12:29:09,445 | INFO | [5/13] Processing CSV row: 6
+2026-06-04 12:29:09,445 | INFO | Started processing row number: 6
+2026-06-04 12:29:09,445 | INFO | mid: 200860215413
+2026-06-04 12:29:09,445 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,445 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 12:29:09,445 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,445 | INFO | _type: merchant
+2026-06-04 12:29:09,445 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | Result for row 6, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,445 | INFO | ----------------------------------------
+2026-06-04 12:29:09,445 | INFO | [6/13] Processing CSV row: 7
+2026-06-04 12:29:09,446 | INFO | Started processing row number: 7
+2026-06-04 12:29:09,446 | INFO | mid: 200860215413
+2026-06-04 12:29:09,446 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,446 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 12:29:09,446 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,446 | INFO | _type: merchant
+2026-06-04 12:29:09,446 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | Result for row 7, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | ----------------------------------------
+2026-06-04 12:29:09,446 | INFO | [7/13] Processing CSV row: 8
+2026-06-04 12:29:09,446 | INFO | Started processing row number: 8
+2026-06-04 12:29:09,446 | INFO | mid: 200860215413
+2026-06-04 12:29:09,446 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,446 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 12:29:09,446 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,446 | INFO | _type: merchant
+2026-06-04 12:29:09,446 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | Result for row 8, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | ----------------------------------------
+2026-06-04 12:29:09,446 | INFO | [8/13] Processing CSV row: 9
+2026-06-04 12:29:09,446 | INFO | Started processing row number: 9
+2026-06-04 12:29:09,446 | INFO | mid: 200860215413
+2026-06-04 12:29:09,446 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,446 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 12:29:09,446 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,446 | INFO | _type: merchant
+2026-06-04 12:29:09,446 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | Result for row 9, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | ----------------------------------------
+2026-06-04 12:29:09,446 | INFO | [9/13] Processing CSV row: 10
+2026-06-04 12:29:09,446 | INFO | Started processing row number: 10
+2026-06-04 12:29:09,446 | INFO | mid: 200860215413
+2026-06-04 12:29:09,446 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,446 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 12:29:09,446 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,446 | INFO | _type: merchant
+2026-06-04 12:29:09,446 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | Result for row 10, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | ----------------------------------------
+2026-06-04 12:29:09,446 | INFO | [10/13] Processing CSV row: 11
+2026-06-04 12:29:09,446 | INFO | Started processing row number: 11
+2026-06-04 12:29:09,446 | INFO | mid: 001736692657
+2026-06-04 12:29:09,446 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,446 | INFO | mid_reference: 6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4
+2026-06-04 12:29:09,446 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 12:29:09,446 | INFO | _type: merchant
+2026-06-04 12:29:09,446 | INFO | Skipping MID 001736692657 because AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | Result for row 11, MID 001736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 12:29:09,446 | INFO | ----------------------------------------
+2026-06-04 12:29:09,446 | INFO | [11/13] Processing CSV row: 12
+2026-06-04 12:29:09,446 | INFO | Started processing row number: 12
+2026-06-04 12:29:09,446 | INFO | mid: 001000000044
+2026-06-04 12:29:09,446 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,446 | INFO | mid_reference: af9db4e2-d5a6-4f23-8233-bfef050fa6a0
+2026-06-04 12:29:09,446 | INFO | payment_method: 
+2026-06-04 12:29:09,446 | INFO | _type: merchant
+2026-06-04 12:29:09,446 | INFO | Resolving merchant reference
+2026-06-04 12:29:09,446 | INFO | Current node type: merchant
+2026-06-04 12:29:09,446 | INFO | Current attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 12:29:09,446 | INFO | Node type is merchant. Using attached_to_node_reference directly.
+2026-06-04 12:29:09,446 | INFO | Calling add_amex_account API
+2026-06-04 12:29:09,446 | INFO | POST URL: https://api-gateway.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/
+2026-06-04 12:29:09,446 | INFO | Request payload: {'name': 'abdous', 'midRef': 'af9db4e2-d5a6-4f23-8233-bfef050fa6a0', 'paymentMethod': 'AMERICAN_EXPRESS', 'currency': 'USD', 'channel': [], 'enabled': True, 'amexMid': None, 'paymentProcessor': 'NETWORK_INTERNATIONAL', 'disabledOperations': ['void'], 'threeDsId': None, 'secretKey': ''}
+2026-06-04 12:29:11,767 | INFO | add_amex_account response status: 404
+2026-06-04 12:29:11,767 | INFO | add_amex_account response body: {
+  "message" : "Not Found",
+  "code" : 404,
+  "errors" : [ {
+    "message" : "Entity not found [merchant] with reference [4ec64d0d-95ba-43eb-b069-37e203b5c898]",
+    "localizedMessage" : "{error.hierarchy.entityNotFound}",
+    "errorCode" : "entityNotFound",
+    "domain" : "hierarchy"
+  } ]
+}
+2026-06-04 12:29:11,767 | ERROR | Script stopped because an error happened: Add AMEX API failed for MID 001000000044. Status code: 404. Response: {
+  "message" : "Not Found",
+  "code" : 404,
+  "errors" : [ {
+    "message" : "Entity not found [merchant] with reference [4ec64d0d-95ba-43eb-b069-37e203b5c898]",
+    "localizedMessage" : "{error.hierarchy.entityNotFound}",
+    "errorCode" : "entityNotFound",
+    "domain" : "hierarchy"
+  } ]
+}
+Traceback (most recent call last):
+  File "/Users/Abdelrahman.Aref/PycharmProjects/payment_channel /main.py", line 93, in main
+    result = process_row(
+             ^^^^^^^^^^^^
+  File "/Users/Abdelrahman.Aref/PycharmProjects/payment_channel /business_logic.py", line 220, in process_row
+    raise RuntimeError(
+RuntimeError: Add AMEX API failed for MID 001000000044. Status code: 404. Response: {
+  "message" : "Not Found",
+  "code" : 404,
+  "errors" : [ {
+    "message" : "Entity not found [merchant] with reference [4ec64d0d-95ba-43eb-b069-37e203b5c898]",
+    "localizedMessage" : "{error.hierarchy.entityNotFound}",
+    "errorCode" : "entityNotFound",
+    "domain" : "hierarchy"
+  } ]
+}
+2026-06-04 12:29:11,770 | INFO | Result file created: amex_account_creation_result_20260604_122909.csv
+2026-06-04 14:00:34,338 | INFO | Script started
+2026-06-04 14:00:34,338 | INFO | Reading CSV file: mid_merchant_info.csv
+2026-06-04 14:00:34,339 | INFO | CSV file loaded successfully
+2026-06-04 14:00:34,339 | INFO | Total rows found: 13
+2026-06-04 14:00:34,340 | INFO | ----------------------------------------
+2026-06-04 14:00:34,340 | INFO | [1/13] Processing CSV row: 2
+2026-06-04 14:00:34,340 | INFO | Started processing row number: 2
+2026-06-04 14:00:34,340 | INFO | mid: 1736692657
+2026-06-04 14:00:34,340 | INFO | attached_to_node_reference: fbec38c1-1f95-489d-8eeb-7ac320deb85e
+2026-06-04 14:00:34,340 | INFO | mid_reference: c5fea869-670a-4784-9160-a445a17d1515
+2026-06-04 14:00:34,340 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,340 | INFO | _type: merchant
+2026-06-04 14:00:34,340 | INFO | Skipping MID 1736692657 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | Result for row 2, MID 1736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | ----------------------------------------
+2026-06-04 14:00:34,340 | INFO | [2/13] Processing CSV row: 3
+2026-06-04 14:00:34,340 | INFO | Started processing row number: 3
+2026-06-04 14:00:34,340 | INFO | mid: 200860215413
+2026-06-04 14:00:34,340 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,340 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:00:34,340 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,340 | INFO | _type: merchant
+2026-06-04 14:00:34,340 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | Result for row 3, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | ----------------------------------------
+2026-06-04 14:00:34,340 | INFO | [3/13] Processing CSV row: 4
+2026-06-04 14:00:34,340 | INFO | Started processing row number: 4
+2026-06-04 14:00:34,340 | INFO | mid: 200860215413
+2026-06-04 14:00:34,340 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,340 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:00:34,340 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,340 | INFO | _type: merchant
+2026-06-04 14:00:34,340 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | Result for row 4, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | ----------------------------------------
+2026-06-04 14:00:34,340 | INFO | [4/13] Processing CSV row: 5
+2026-06-04 14:00:34,340 | INFO | Started processing row number: 5
+2026-06-04 14:00:34,340 | INFO | mid: 200860215413
+2026-06-04 14:00:34,340 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,340 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:00:34,340 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,340 | INFO | _type: merchant
+2026-06-04 14:00:34,340 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | Result for row 5, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | ----------------------------------------
+2026-06-04 14:00:34,340 | INFO | [5/13] Processing CSV row: 6
+2026-06-04 14:00:34,340 | INFO | Started processing row number: 6
+2026-06-04 14:00:34,340 | INFO | mid: 200860215413
+2026-06-04 14:00:34,340 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,340 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:00:34,340 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,340 | INFO | _type: merchant
+2026-06-04 14:00:34,340 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | Result for row 6, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | ----------------------------------------
+2026-06-04 14:00:34,340 | INFO | [6/13] Processing CSV row: 7
+2026-06-04 14:00:34,340 | INFO | Started processing row number: 7
+2026-06-04 14:00:34,340 | INFO | mid: 200860215413
+2026-06-04 14:00:34,340 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,340 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:00:34,340 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,340 | INFO | _type: merchant
+2026-06-04 14:00:34,340 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | Result for row 7, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,340 | INFO | ----------------------------------------
+2026-06-04 14:00:34,340 | INFO | [7/13] Processing CSV row: 8
+2026-06-04 14:00:34,340 | INFO | Started processing row number: 8
+2026-06-04 14:00:34,340 | INFO | mid: 200860215413
+2026-06-04 14:00:34,340 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,340 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:00:34,340 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,341 | INFO | _type: merchant
+2026-06-04 14:00:34,341 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,341 | INFO | Result for row 8, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,341 | INFO | ----------------------------------------
+2026-06-04 14:00:34,341 | INFO | [8/13] Processing CSV row: 9
+2026-06-04 14:00:34,341 | INFO | Started processing row number: 9
+2026-06-04 14:00:34,341 | INFO | mid: 200860215413
+2026-06-04 14:00:34,341 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,341 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:00:34,341 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,341 | INFO | _type: merchant
+2026-06-04 14:00:34,341 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,341 | INFO | Result for row 9, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,341 | INFO | ----------------------------------------
+2026-06-04 14:00:34,341 | INFO | [9/13] Processing CSV row: 10
+2026-06-04 14:00:34,341 | INFO | Started processing row number: 10
+2026-06-04 14:00:34,341 | INFO | mid: 200860215413
+2026-06-04 14:00:34,341 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,341 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:00:34,341 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,341 | INFO | _type: merchant
+2026-06-04 14:00:34,341 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,341 | INFO | Result for row 10, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,341 | INFO | ----------------------------------------
+2026-06-04 14:00:34,341 | INFO | [10/13] Processing CSV row: 11
+2026-06-04 14:00:34,341 | INFO | Started processing row number: 11
+2026-06-04 14:00:34,341 | INFO | mid: 001736692657
+2026-06-04 14:00:34,341 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,341 | INFO | mid_reference: 6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4
+2026-06-04 14:00:34,341 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:34,341 | INFO | _type: merchant
+2026-06-04 14:00:34,341 | INFO | Skipping MID 001736692657 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,341 | INFO | Result for row 11, MID 001736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:34,341 | INFO | ----------------------------------------
+2026-06-04 14:00:34,341 | INFO | [11/13] Processing CSV row: 12
+2026-06-04 14:00:34,341 | INFO | Started processing row number: 12
+2026-06-04 14:00:34,341 | INFO | mid: 001000000044
+2026-06-04 14:00:34,341 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,341 | INFO | mid_reference: af9db4e2-d5a6-4f23-8233-bfef050fa6a0
+2026-06-04 14:00:34,341 | INFO | payment_method: 
+2026-06-04 14:00:34,341 | INFO | _type: merchant
+2026-06-04 14:00:34,341 | INFO | Resolving merchant reference
+2026-06-04 14:00:34,341 | INFO | Current node type: merchant
+2026-06-04 14:00:34,341 | INFO | Current attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:34,341 | INFO | Node type is merchant. Using attached_to_node_reference directly.
+2026-06-04 14:00:34,341 | INFO | Calling add_amex_account API
+2026-06-04 14:00:34,341 | INFO | POST URL: https://api-gateway-uat.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/
+2026-06-04 14:00:34,341 | INFO | Request payload: {'name': 'abdous', 'midRef': 'af9db4e2-d5a6-4f23-8233-bfef050fa6a0', 'paymentMethod': 'AMERICAN_EXPRESS', 'currency': 'USD', 'channel': [], 'enabled': True, 'amexMid': None, 'paymentProcessor': 'NETWORK_INTERNATIONAL', 'disabledOperations': ['void'], 'threeDsId': None, 'secretKey': ''}
+2026-06-04 14:00:36,160 | INFO | add_amex_account response status: 201
+2026-06-04 14:00:36,162 | INFO | add_amex_account response body: {
+  "_links" : {
+    "self" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/0d770f02-eb29-4cc1-a935-5b0baf73f80a"
+    },
+    "enable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/0d770f02-eb29-4cc1-a935-5b0baf73f80a/enable"
+    },
+    "disable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/0d770f02-eb29-4cc1-a935-5b0baf73f80a/disable"
+    }
+  },
+  "reference" : "0d770f02-eb29-4cc1-a935-5b0baf73f80a",
+  "currency" : "USD",
+  "paymentMethod" : {
+    "type" : "card",
+    "name" : "AMERICAN_EXPRESS"
+  },
+  "name" : "abdous",
+  "merchantType" : 5399,
+  "enabled" : true,
+  "channel" : [ "Ecom" ],
+  "secretKey" : "",
+  "mid" : "001000000044",
+  "chainId" : "200080144922",
+  "tids" : [ "123456789123" ],
+  "acquirerId" : "200",
+  "merchantAggregator" : false,
+  "aftInternational" : false,
+  "merchantPans" : [ ],
+  "paymentProcessor" : "NETWORK_INTERNATIONAL",
+  "nodeConfig" : {
+    "reference" : "0d770f02-eb29-4cc1-a935-5b0baf73f80a",
+    "currency" : "USD",
+    "paymentMethod" : {
+      "type" : "card",
+      "name" : "AMERICAN_EXPRESS"
+    },
+    "name" : "abdous",
+    "merchantType" : 5399,
+    "enabled" : true,
+    "channel" : [ "Ecom" ],
+    "secretKey" : "",
+    "mid" : "001000000044",
+    "chainId" : "200080144922",
+    "tids" : [ "123456789123" ],
+    "acquirerId" : "200",
+    "merchantAggregator" : false,
+    "aftInternational" : false,
+    "merchantPans" : [ ],
+    "paymentProcessor" : "NETWORK_INTERNATIONAL"
+  }
+}
+2026-06-04 14:00:36,162 | INFO | AMERICAN_EXPRESS account created successfully for MID: 001000000044
+2026-06-04 14:00:36,164 | INFO | Result for row 12, MID 001000000044: SUCCESS - AMERICAN_EXPRESS account created successfully
+2026-06-04 14:00:36,164 | INFO | ----------------------------------------
+2026-06-04 14:00:36,165 | INFO | [12/13] Processing CSV row: 13
+2026-06-04 14:00:36,165 | INFO | Started processing row number: 13
+2026-06-04 14:00:36,165 | INFO | mid: 500005000
+2026-06-04 14:00:36,165 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:36,165 | INFO | mid_reference: d40ea189-b3d0-458e-beae-08327f0d8945
+2026-06-04 14:00:36,165 | INFO | payment_method: 
+2026-06-04 14:00:36,165 | INFO | _type: merchant
+2026-06-04 14:00:36,165 | INFO | Resolving merchant reference
+2026-06-04 14:00:36,165 | INFO | Current node type: merchant
+2026-06-04 14:00:36,165 | INFO | Current attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:00:36,165 | INFO | Node type is merchant. Using attached_to_node_reference directly.
+2026-06-04 14:00:36,165 | INFO | Calling add_amex_account API
+2026-06-04 14:00:36,165 | INFO | POST URL: https://api-gateway-uat.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/
+2026-06-04 14:00:36,165 | INFO | Request payload: {'name': 'abdous', 'midRef': 'd40ea189-b3d0-458e-beae-08327f0d8945', 'paymentMethod': 'AMERICAN_EXPRESS', 'currency': 'USD', 'channel': [], 'enabled': True, 'amexMid': None, 'paymentProcessor': 'NETWORK_INTERNATIONAL', 'disabledOperations': ['void'], 'threeDsId': None, 'secretKey': ''}
+2026-06-04 14:00:36,959 | INFO | add_amex_account response status: 201
+2026-06-04 14:00:36,961 | INFO | add_amex_account response body: {
+  "_links" : {
+    "self" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c"
+    },
+    "enable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c/enable"
+    },
+    "disable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c/disable"
+    }
+  },
+  "reference" : "9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c",
+  "currency" : "USD",
+  "paymentMethod" : {
+    "type" : "card",
+    "name" : "AMERICAN_EXPRESS"
+  },
+  "name" : "abdous",
+  "merchantType" : 5399,
+  "enabled" : true,
+  "channel" : [ "Ecom" ],
+  "secretKey" : "",
+  "mid" : "500005000",
+  "chainId" : "200080144922",
+  "tids" : [ ],
+  "acquirerId" : "200",
+  "merchantAggregator" : true,
+  "aftInternational" : false,
+  "merchantPans" : [ ],
+  "paymentProcessor" : "NETWORK_INTERNATIONAL",
+  "nodeConfig" : {
+    "reference" : "9f74ee49-5625-4d1f-a2c7-ff1f0aecce2c",
+    "currency" : "USD",
+    "paymentMethod" : {
+      "type" : "card",
+      "name" : "AMERICAN_EXPRESS"
+    },
+    "name" : "abdous",
+    "merchantType" : 5399,
+    "enabled" : true,
+    "channel" : [ "Ecom" ],
+    "secretKey" : "",
+    "mid" : "500005000",
+    "chainId" : "200080144922",
+    "tids" : [ ],
+    "acquirerId" : "200",
+    "merchantAggregator" : true,
+    "aftInternational" : false,
+    "merchantPans" : [ ],
+    "paymentProcessor" : "NETWORK_INTERNATIONAL"
+  }
+}
+2026-06-04 14:00:36,961 | INFO | AMERICAN_EXPRESS account created successfully for MID: 500005000
+2026-06-04 14:00:36,963 | INFO | Result for row 13, MID 500005000: SUCCESS - AMERICAN_EXPRESS account created successfully
+2026-06-04 14:00:36,963 | INFO | ----------------------------------------
+2026-06-04 14:00:36,963 | INFO | [13/13] Processing CSV row: 14
+2026-06-04 14:00:36,963 | INFO | Started processing row number: 14
+2026-06-04 14:00:36,963 | INFO | mid: 0000202408
+2026-06-04 14:00:36,963 | INFO | attached_to_node_reference: f99b56a2-7f55-4164-9ef7-47e83e3e52bf
+2026-06-04 14:00:36,964 | INFO | mid_reference: d942e455-29db-40a5-8822-5d945eb2ef64
+2026-06-04 14:00:36,964 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:00:36,964 | INFO | _type: merchant_organisation_unit
+2026-06-04 14:00:36,964 | INFO | Skipping MID 0000202408 because AMERICAN_EXPRESS already exists
+2026-06-04 14:00:36,964 | INFO | Result for row 14, MID 0000202408: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:00:36,970 | INFO | Result file created: amex_account_creation_result_20260604_140034.csv
+2026-06-04 14:00:36,970 | INFO | Script completed successfully
+2026-06-04 14:15:08,360 | INFO | Script started
+2026-06-04 14:15:08,360 | INFO | Reading CSV file: mid_merchant_info.csv
+2026-06-04 14:15:08,362 | INFO | CSV file loaded successfully
+2026-06-04 14:15:08,362 | INFO | Total rows found: 13
+2026-06-04 14:15:08,362 | INFO | ----------------------------------------
+2026-06-04 14:15:08,362 | INFO | [1/13] Processing CSV row: 2
+2026-06-04 14:15:08,362 | INFO | Started processing row number: 2
+2026-06-04 14:15:08,362 | INFO | mid: 1736692657
+2026-06-04 14:15:08,362 | INFO | attached_to_node_reference: fbec38c1-1f95-489d-8eeb-7ac320deb85e
+2026-06-04 14:15:08,362 | INFO | mid_reference: c5fea869-670a-4784-9160-a445a17d1515
+2026-06-04 14:15:08,362 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,362 | INFO | _type: merchant
+2026-06-04 14:15:08,362 | INFO | Skipping MID 1736692657 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,362 | INFO | Result for row 2, MID 1736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,362 | INFO | ----------------------------------------
+2026-06-04 14:15:08,362 | INFO | [2/13] Processing CSV row: 3
+2026-06-04 14:15:08,362 | INFO | Started processing row number: 3
+2026-06-04 14:15:08,362 | INFO | mid: 200860215413
+2026-06-04 14:15:08,362 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,362 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:15:08,362 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,362 | INFO | _type: merchant
+2026-06-04 14:15:08,362 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,362 | INFO | Result for row 3, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,362 | INFO | ----------------------------------------
+2026-06-04 14:15:08,362 | INFO | [3/13] Processing CSV row: 4
+2026-06-04 14:15:08,362 | INFO | Started processing row number: 4
+2026-06-04 14:15:08,362 | INFO | mid: 200860215413
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:15:08,363 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | Result for row 4, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | ----------------------------------------
+2026-06-04 14:15:08,363 | INFO | [4/13] Processing CSV row: 5
+2026-06-04 14:15:08,363 | INFO | Started processing row number: 5
+2026-06-04 14:15:08,363 | INFO | mid: 200860215413
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:15:08,363 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | Result for row 5, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | ----------------------------------------
+2026-06-04 14:15:08,363 | INFO | [5/13] Processing CSV row: 6
+2026-06-04 14:15:08,363 | INFO | Started processing row number: 6
+2026-06-04 14:15:08,363 | INFO | mid: 200860215413
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:15:08,363 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | Result for row 6, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | ----------------------------------------
+2026-06-04 14:15:08,363 | INFO | [6/13] Processing CSV row: 7
+2026-06-04 14:15:08,363 | INFO | Started processing row number: 7
+2026-06-04 14:15:08,363 | INFO | mid: 200860215413
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:15:08,363 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | Result for row 7, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | ----------------------------------------
+2026-06-04 14:15:08,363 | INFO | [7/13] Processing CSV row: 8
+2026-06-04 14:15:08,363 | INFO | Started processing row number: 8
+2026-06-04 14:15:08,363 | INFO | mid: 200860215413
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:15:08,363 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | Result for row 8, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | ----------------------------------------
+2026-06-04 14:15:08,363 | INFO | [8/13] Processing CSV row: 9
+2026-06-04 14:15:08,363 | INFO | Started processing row number: 9
+2026-06-04 14:15:08,363 | INFO | mid: 200860215413
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:15:08,363 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | Result for row 9, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | ----------------------------------------
+2026-06-04 14:15:08,363 | INFO | [9/13] Processing CSV row: 10
+2026-06-04 14:15:08,363 | INFO | Started processing row number: 10
+2026-06-04 14:15:08,363 | INFO | mid: 200860215413
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-04 14:15:08,363 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | Result for row 10, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | ----------------------------------------
+2026-06-04 14:15:08,363 | INFO | [10/13] Processing CSV row: 11
+2026-06-04 14:15:08,363 | INFO | Started processing row number: 11
+2026-06-04 14:15:08,363 | INFO | mid: 001736692657
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: 6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4
+2026-06-04 14:15:08,363 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Skipping MID 001736692657 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | Result for row 11, MID 001736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:08,363 | INFO | ----------------------------------------
+2026-06-04 14:15:08,363 | INFO | [11/13] Processing CSV row: 12
+2026-06-04 14:15:08,363 | INFO | Started processing row number: 12
+2026-06-04 14:15:08,363 | INFO | mid: 001000000044
+2026-06-04 14:15:08,363 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | mid_reference: af9db4e2-d5a6-4f23-8233-bfef050fa6a0
+2026-06-04 14:15:08,363 | INFO | payment_method: 
+2026-06-04 14:15:08,363 | INFO | _type: merchant
+2026-06-04 14:15:08,363 | INFO | Resolving merchant reference
+2026-06-04 14:15:08,363 | INFO | Current node type: merchant
+2026-06-04 14:15:08,363 | INFO | Current attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:08,363 | INFO | Node type is merchant. Using attached_to_node_reference directly.
+2026-06-04 14:15:08,364 | INFO | Calling add_amex_account API
+2026-06-04 14:15:08,364 | INFO | POST URL: https://api-gateway-uat.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/
+2026-06-04 14:15:08,364 | INFO | Request payload: {'name': 'script2', 'midRef': 'af9db4e2-d5a6-4f23-8233-bfef050fa6a0', 'paymentMethod': 'AMERICAN_EXPRESS', 'currency': 'USD', 'channel': [], 'enabled': True, 'amexMid': None, 'paymentProcessor': 'NETWORK_INTERNATIONAL', 'disabledOperations': ['void'], 'threeDsId': None, 'secretKey': ''}
+2026-06-04 14:15:09,847 | INFO | add_amex_account response status: 201
+2026-06-04 14:15:09,847 | INFO | add_amex_account response body: {
+  "_links" : {
+    "self" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/ca914572-e1ac-4d64-8622-eae81a8d1570"
+    },
+    "enable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/ca914572-e1ac-4d64-8622-eae81a8d1570/enable"
+    },
+    "disable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/ca914572-e1ac-4d64-8622-eae81a8d1570/disable"
+    }
+  },
+  "reference" : "ca914572-e1ac-4d64-8622-eae81a8d1570",
+  "currency" : "USD",
+  "paymentMethod" : {
+    "type" : "card",
+    "name" : "AMERICAN_EXPRESS"
+  },
+  "name" : "script2",
+  "merchantType" : 5399,
+  "enabled" : true,
+  "channel" : [ "Ecom" ],
+  "secretKey" : "",
+  "mid" : "001000000044",
+  "chainId" : "200080144922",
+  "tids" : [ "123456789123" ],
+  "acquirerId" : "200",
+  "merchantAggregator" : false,
+  "aftInternational" : false,
+  "merchantPans" : [ ],
+  "paymentProcessor" : "NETWORK_INTERNATIONAL",
+  "nodeConfig" : {
+    "reference" : "ca914572-e1ac-4d64-8622-eae81a8d1570",
+    "currency" : "USD",
+    "paymentMethod" : {
+      "type" : "card",
+      "name" : "AMERICAN_EXPRESS"
+    },
+    "name" : "script2",
+    "merchantType" : 5399,
+    "enabled" : true,
+    "channel" : [ "Ecom" ],
+    "secretKey" : "",
+    "mid" : "001000000044",
+    "chainId" : "200080144922",
+    "tids" : [ "123456789123" ],
+    "acquirerId" : "200",
+    "merchantAggregator" : false,
+    "aftInternational" : false,
+    "merchantPans" : [ ],
+    "paymentProcessor" : "NETWORK_INTERNATIONAL"
+  }
+}
+2026-06-04 14:15:09,847 | INFO | AMERICAN_EXPRESS account created successfully for MID: 001000000044
+2026-06-04 14:15:09,848 | INFO | Result for row 12, MID 001000000044: SUCCESS - AMERICAN_EXPRESS account created successfully
+2026-06-04 14:15:09,848 | INFO | ----------------------------------------
+2026-06-04 14:15:09,848 | INFO | [12/13] Processing CSV row: 13
+2026-06-04 14:15:09,848 | INFO | Started processing row number: 13
+2026-06-04 14:15:09,848 | INFO | mid: 500005000
+2026-06-04 14:15:09,848 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:09,848 | INFO | mid_reference: d40ea189-b3d0-458e-beae-08327f0d8945
+2026-06-04 14:15:09,848 | INFO | payment_method: 
+2026-06-04 14:15:09,849 | INFO | _type: merchant
+2026-06-04 14:15:09,849 | INFO | Resolving merchant reference
+2026-06-04 14:15:09,849 | INFO | Current node type: merchant
+2026-06-04 14:15:09,849 | INFO | Current attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-04 14:15:09,849 | INFO | Node type is merchant. Using attached_to_node_reference directly.
+2026-06-04 14:15:09,849 | INFO | Calling add_amex_account API
+2026-06-04 14:15:09,849 | INFO | POST URL: https://api-gateway-uat.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/
+2026-06-04 14:15:09,849 | INFO | Request payload: {'name': 'script2', 'midRef': 'd40ea189-b3d0-458e-beae-08327f0d8945', 'paymentMethod': 'AMERICAN_EXPRESS', 'currency': 'USD', 'channel': [], 'enabled': True, 'amexMid': None, 'paymentProcessor': 'NETWORK_INTERNATIONAL', 'disabledOperations': ['void'], 'threeDsId': None, 'secretKey': ''}
+2026-06-04 14:15:10,526 | INFO | add_amex_account response status: 201
+2026-06-04 14:15:10,528 | INFO | add_amex_account response body: {
+  "_links" : {
+    "self" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/ab6e8110-a882-44e7-8343-e0487dc1d7bc"
+    },
+    "enable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/ab6e8110-a882-44e7-8343-e0487dc1d7bc/enable"
+    },
+    "disable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/ab6e8110-a882-44e7-8343-e0487dc1d7bc/disable"
+    }
+  },
+  "reference" : "ab6e8110-a882-44e7-8343-e0487dc1d7bc",
+  "currency" : "USD",
+  "paymentMethod" : {
+    "type" : "card",
+    "name" : "AMERICAN_EXPRESS"
+  },
+  "name" : "script2",
+  "merchantType" : 5399,
+  "enabled" : true,
+  "channel" : [ "Ecom" ],
+  "secretKey" : "",
+  "mid" : "500005000",
+  "chainId" : "200080144922",
+  "tids" : [ ],
+  "acquirerId" : "200",
+  "merchantAggregator" : true,
+  "aftInternational" : false,
+  "merchantPans" : [ ],
+  "paymentProcessor" : "NETWORK_INTERNATIONAL",
+  "nodeConfig" : {
+    "reference" : "ab6e8110-a882-44e7-8343-e0487dc1d7bc",
+    "currency" : "USD",
+    "paymentMethod" : {
+      "type" : "card",
+      "name" : "AMERICAN_EXPRESS"
+    },
+    "name" : "script2",
+    "merchantType" : 5399,
+    "enabled" : true,
+    "channel" : [ "Ecom" ],
+    "secretKey" : "",
+    "mid" : "500005000",
+    "chainId" : "200080144922",
+    "tids" : [ ],
+    "acquirerId" : "200",
+    "merchantAggregator" : true,
+    "aftInternational" : false,
+    "merchantPans" : [ ],
+    "paymentProcessor" : "NETWORK_INTERNATIONAL"
+  }
+}
+2026-06-04 14:15:10,528 | INFO | AMERICAN_EXPRESS account created successfully for MID: 500005000
+2026-06-04 14:15:10,530 | INFO | Result for row 13, MID 500005000: SUCCESS - AMERICAN_EXPRESS account created successfully
+2026-06-04 14:15:10,530 | INFO | ----------------------------------------
+2026-06-04 14:15:10,530 | INFO | [13/13] Processing CSV row: 14
+2026-06-04 14:15:10,530 | INFO | Started processing row number: 14
+2026-06-04 14:15:10,530 | INFO | mid: 0000202408
+2026-06-04 14:15:10,530 | INFO | attached_to_node_reference: f99b56a2-7f55-4164-9ef7-47e83e3e52bf
+2026-06-04 14:15:10,530 | INFO | mid_reference: d942e455-29db-40a5-8822-5d945eb2ef64
+2026-06-04 14:15:10,530 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-04 14:15:10,530 | INFO | _type: merchant_organisation_unit
+2026-06-04 14:15:10,530 | INFO | Skipping MID 0000202408 because AMERICAN_EXPRESS already exists
+2026-06-04 14:15:10,530 | INFO | Result for row 14, MID 0000202408: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-04 14:15:10,536 | INFO | Result file created: amex_account_creation_result_20260604_141508.csv
+2026-06-04 14:15:10,537 | INFO | Script completed successfully
+2026-06-05 11:35:04,287 | INFO | Script started
+2026-06-05 11:35:04,288 | INFO | Reading CSV file: mid_merchant_info.csv
+2026-06-05 11:35:04,289 | INFO | Reading NGEN Excel file: NGEN_List.xlsx
+2026-06-05 11:35:08,640 | INFO | Input files loaded successfully
+2026-06-05 11:35:11,064 | INFO | NGEN AMEX lookup created with 213589 keys
+2026-06-05 11:35:11,064 | INFO | Total rows found in mid_merchant_info.csv: 13
+2026-06-05 11:35:11,064 | INFO | ----------------------------------------
+2026-06-05 11:35:11,064 | INFO | [1/13] Processing CSV row: 2
+2026-06-05 11:35:11,064 | INFO | Started processing row number: 2
+2026-06-05 11:35:11,064 | INFO | mid: 1736692657
+2026-06-05 11:35:11,064 | INFO | attached_to_node_reference: fbec38c1-1f95-489d-8eeb-7ac320deb85e
+2026-06-05 11:35:11,064 | INFO | mid_reference: c5fea869-670a-4784-9160-a445a17d1515
+2026-06-05 11:35:11,064 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,064 | INFO | _type: merchant
+2026-06-05 11:35:11,064 | INFO | Skipping MID 1736692657 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,064 | INFO | Result for row 2, MID 1736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,064 | INFO | ----------------------------------------
+2026-06-05 11:35:11,064 | INFO | [2/13] Processing CSV row: 3
+2026-06-05 11:35:11,064 | INFO | Started processing row number: 3
+2026-06-05 11:35:11,064 | INFO | mid: 200860215413
+2026-06-05 11:35:11,064 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,064 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 11:35:11,064 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,064 | INFO | _type: merchant
+2026-06-05 11:35:11,064 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,064 | INFO | Result for row 3, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,064 | INFO | ----------------------------------------
+2026-06-05 11:35:11,064 | INFO | [3/13] Processing CSV row: 4
+2026-06-05 11:35:11,064 | INFO | Started processing row number: 4
+2026-06-05 11:35:11,064 | INFO | mid: 200860215413
+2026-06-05 11:35:11,064 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,064 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 11:35:11,065 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,065 | INFO | _type: merchant
+2026-06-05 11:35:11,065 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | Result for row 4, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | ----------------------------------------
+2026-06-05 11:35:11,065 | INFO | [4/13] Processing CSV row: 5
+2026-06-05 11:35:11,065 | INFO | Started processing row number: 5
+2026-06-05 11:35:11,065 | INFO | mid: 200860215413
+2026-06-05 11:35:11,065 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,065 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 11:35:11,065 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,065 | INFO | _type: merchant
+2026-06-05 11:35:11,065 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | Result for row 5, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | ----------------------------------------
+2026-06-05 11:35:11,065 | INFO | [5/13] Processing CSV row: 6
+2026-06-05 11:35:11,065 | INFO | Started processing row number: 6
+2026-06-05 11:35:11,065 | INFO | mid: 200860215413
+2026-06-05 11:35:11,065 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,065 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 11:35:11,065 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,065 | INFO | _type: merchant
+2026-06-05 11:35:11,065 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | Result for row 6, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | ----------------------------------------
+2026-06-05 11:35:11,065 | INFO | [6/13] Processing CSV row: 7
+2026-06-05 11:35:11,065 | INFO | Started processing row number: 7
+2026-06-05 11:35:11,065 | INFO | mid: 200860215413
+2026-06-05 11:35:11,065 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,065 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 11:35:11,065 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,065 | INFO | _type: merchant
+2026-06-05 11:35:11,065 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | Result for row 7, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | ----------------------------------------
+2026-06-05 11:35:11,065 | INFO | [7/13] Processing CSV row: 8
+2026-06-05 11:35:11,065 | INFO | Started processing row number: 8
+2026-06-05 11:35:11,065 | INFO | mid: 200860215413
+2026-06-05 11:35:11,065 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,065 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 11:35:11,065 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,065 | INFO | _type: merchant
+2026-06-05 11:35:11,065 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | Result for row 8, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | ----------------------------------------
+2026-06-05 11:35:11,065 | INFO | [8/13] Processing CSV row: 9
+2026-06-05 11:35:11,065 | INFO | Started processing row number: 9
+2026-06-05 11:35:11,065 | INFO | mid: 200860215413
+2026-06-05 11:35:11,065 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,065 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 11:35:11,065 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,065 | INFO | _type: merchant
+2026-06-05 11:35:11,065 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | Result for row 9, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | ----------------------------------------
+2026-06-05 11:35:11,065 | INFO | [9/13] Processing CSV row: 10
+2026-06-05 11:35:11,065 | INFO | Started processing row number: 10
+2026-06-05 11:35:11,065 | INFO | mid: 200860215413
+2026-06-05 11:35:11,065 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,065 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 11:35:11,065 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,065 | INFO | _type: merchant
+2026-06-05 11:35:11,065 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | Result for row 10, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | ----------------------------------------
+2026-06-05 11:35:11,065 | INFO | [10/13] Processing CSV row: 11
+2026-06-05 11:35:11,065 | INFO | Started processing row number: 11
+2026-06-05 11:35:11,065 | INFO | mid: 001736692657
+2026-06-05 11:35:11,065 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,065 | INFO | mid_reference: 6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4
+2026-06-05 11:35:11,065 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 11:35:11,065 | INFO | _type: merchant
+2026-06-05 11:35:11,065 | INFO | Skipping MID 001736692657 because AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | Result for row 11, MID 001736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 11:35:11,065 | INFO | ----------------------------------------
+2026-06-05 11:35:11,065 | INFO | [11/13] Processing CSV row: 12
+2026-06-05 11:35:11,065 | INFO | Started processing row number: 12
+2026-06-05 11:35:11,065 | INFO | mid: 001000000044
+2026-06-05 11:35:11,065 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 11:35:11,065 | INFO | mid_reference: af9db4e2-d5a6-4f23-8233-bfef050fa6a0
+2026-06-05 11:35:11,066 | INFO | payment_method: 
+2026-06-05 11:35:11,066 | INFO | _type: merchant
+2026-06-05 11:35:11,066 | ERROR | Script stopped because an error happened: AMEX ID not found in NGEN_List.xlsx for MID 001000000044 at row 12
+Traceback (most recent call last):
+  File "/Users/Abdelrahman.Aref/PycharmProjects/payment_channel /main.py", line 112, in main
+    result = process_row(
+             ^^^^^^^^^^^^
+  File "/Users/Abdelrahman.Aref/PycharmProjects/payment_channel /business_logic.py", line 259, in process_row
+    raise RuntimeError(
+RuntimeError: AMEX ID not found in NGEN_List.xlsx for MID 001000000044 at row 12
+2026-06-05 11:35:11,067 | INFO | Result file created: amex_account_creation_result_20260605_113504.csv
+2026-06-05 12:09:00,499 | INFO | Script started
+2026-06-05 12:09:00,499 | INFO | Reading CSV file: mid_merchant_info.csv
+2026-06-05 12:09:00,500 | INFO | Reading NGEN Excel file: test.xlsx
+2026-06-05 12:09:00,546 | INFO | Input files loaded successfully
+2026-06-05 12:09:00,546 | INFO | NGEN AMEX lookup created with 4 keys
+2026-06-05 12:09:00,546 | INFO | Total rows found in mid_merchant_info.csv: 13
+2026-06-05 12:09:00,546 | INFO | ----------------------------------------
+2026-06-05 12:09:00,546 | INFO | [1/13] Processing CSV row: 2
+2026-06-05 12:09:00,546 | INFO | Started processing row number: 2
+2026-06-05 12:09:00,546 | INFO | mid: 1736692657
+2026-06-05 12:09:00,546 | INFO | attached_to_node_reference: fbec38c1-1f95-489d-8eeb-7ac320deb85e
+2026-06-05 12:09:00,546 | INFO | mid_reference: c5fea869-670a-4784-9160-a445a17d1515
+2026-06-05 12:09:00,546 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,546 | INFO | _type: merchant
+2026-06-05 12:09:00,546 | INFO | Skipping MID 1736692657 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,546 | INFO | Result for row 2, MID 1736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,546 | INFO | ----------------------------------------
+2026-06-05 12:09:00,546 | INFO | [2/13] Processing CSV row: 3
+2026-06-05 12:09:00,546 | INFO | Started processing row number: 3
+2026-06-05 12:09:00,546 | INFO | mid: 200860215413
+2026-06-05 12:09:00,546 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,546 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:00,546 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,546 | INFO | _type: merchant
+2026-06-05 12:09:00,546 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,546 | INFO | Result for row 3, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,546 | INFO | ----------------------------------------
+2026-06-05 12:09:00,546 | INFO | [3/13] Processing CSV row: 4
+2026-06-05 12:09:00,546 | INFO | Started processing row number: 4
+2026-06-05 12:09:00,546 | INFO | mid: 200860215413
+2026-06-05 12:09:00,546 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,546 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:00,546 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,546 | INFO | _type: merchant
+2026-06-05 12:09:00,546 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,546 | INFO | Result for row 4, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,546 | INFO | ----------------------------------------
+2026-06-05 12:09:00,546 | INFO | [4/13] Processing CSV row: 5
+2026-06-05 12:09:00,546 | INFO | Started processing row number: 5
+2026-06-05 12:09:00,546 | INFO | mid: 200860215413
+2026-06-05 12:09:00,546 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:00,547 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,547 | INFO | _type: merchant
+2026-06-05 12:09:00,547 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | Result for row 5, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | ----------------------------------------
+2026-06-05 12:09:00,547 | INFO | [5/13] Processing CSV row: 6
+2026-06-05 12:09:00,547 | INFO | Started processing row number: 6
+2026-06-05 12:09:00,547 | INFO | mid: 200860215413
+2026-06-05 12:09:00,547 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:00,547 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,547 | INFO | _type: merchant
+2026-06-05 12:09:00,547 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | Result for row 6, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | ----------------------------------------
+2026-06-05 12:09:00,547 | INFO | [6/13] Processing CSV row: 7
+2026-06-05 12:09:00,547 | INFO | Started processing row number: 7
+2026-06-05 12:09:00,547 | INFO | mid: 200860215413
+2026-06-05 12:09:00,547 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:00,547 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,547 | INFO | _type: merchant
+2026-06-05 12:09:00,547 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | Result for row 7, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | ----------------------------------------
+2026-06-05 12:09:00,547 | INFO | [7/13] Processing CSV row: 8
+2026-06-05 12:09:00,547 | INFO | Started processing row number: 8
+2026-06-05 12:09:00,547 | INFO | mid: 200860215413
+2026-06-05 12:09:00,547 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:00,547 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,547 | INFO | _type: merchant
+2026-06-05 12:09:00,547 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | Result for row 8, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | ----------------------------------------
+2026-06-05 12:09:00,547 | INFO | [8/13] Processing CSV row: 9
+2026-06-05 12:09:00,547 | INFO | Started processing row number: 9
+2026-06-05 12:09:00,547 | INFO | mid: 200860215413
+2026-06-05 12:09:00,547 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:00,547 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,547 | INFO | _type: merchant
+2026-06-05 12:09:00,547 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | Result for row 9, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | ----------------------------------------
+2026-06-05 12:09:00,547 | INFO | [9/13] Processing CSV row: 10
+2026-06-05 12:09:00,547 | INFO | Started processing row number: 10
+2026-06-05 12:09:00,547 | INFO | mid: 200860215413
+2026-06-05 12:09:00,547 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:00,547 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,547 | INFO | _type: merchant
+2026-06-05 12:09:00,547 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | Result for row 10, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | ----------------------------------------
+2026-06-05 12:09:00,547 | INFO | [10/13] Processing CSV row: 11
+2026-06-05 12:09:00,547 | INFO | Started processing row number: 11
+2026-06-05 12:09:00,547 | INFO | mid: 001736692657
+2026-06-05 12:09:00,547 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | mid_reference: 6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4
+2026-06-05 12:09:00,547 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:00,547 | INFO | _type: merchant
+2026-06-05 12:09:00,547 | INFO | Skipping MID 001736692657 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | Result for row 11, MID 001736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:00,547 | INFO | ----------------------------------------
+2026-06-05 12:09:00,547 | INFO | [11/13] Processing CSV row: 12
+2026-06-05 12:09:00,547 | INFO | Started processing row number: 12
+2026-06-05 12:09:00,547 | INFO | mid: 001000000044
+2026-06-05 12:09:00,547 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | mid_reference: af9db4e2-d5a6-4f23-8233-bfef050fa6a0
+2026-06-05 12:09:00,547 | INFO | payment_method: 
+2026-06-05 12:09:00,547 | INFO | _type: merchant
+2026-06-05 12:09:00,547 | INFO | AMEX ID found for MID 001000000044: 9763661477
+2026-06-05 12:09:00,547 | INFO | Resolving merchant reference
+2026-06-05 12:09:00,547 | INFO | Current node type: merchant
+2026-06-05 12:09:00,547 | INFO | Current attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:00,547 | INFO | Node type is merchant. Using attached_to_node_reference directly.
+2026-06-05 12:09:00,547 | INFO | Calling add_amex_account API
+2026-06-05 12:09:00,547 | INFO | POST URL: https://api-gateway-uat.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/
+2026-06-05 12:09:00,547 | INFO | Request payload: {'name': 'amex_idT', 'midRef': 'af9db4e2-d5a6-4f23-8233-bfef050fa6a0', 'paymentMethod': 'AMERICAN_EXPRESS', 'currency': 'USD', 'channel': [], 'enabled': True, 'amexMid': '9763661477', 'paymentProcessor': 'NETWORK_INTERNATIONAL', 'disabledOperations': ['void'], 'threeDsId': None, 'secretKey': ''}
+2026-06-05 12:09:01,864 | INFO | add_amex_account response status: 422
+2026-06-05 12:09:01,865 | INFO | add_amex_account response body: {
+  "message" : "Unprocessable Entity",
+  "code" : 422,
+  "errors" : [ {
+    "message" : "must match \"[a-zA-Z0-9]+[a-zA-Z0-9 ]+\"",
+    "localizedMessage" : "Name must be alphanumeric",
+    "location" : "name",
+    "errorCode" : "nameNotAlphanumeric",
+    "domain" : "configuration"
+  } ]
+}
+2026-06-05 12:09:01,865 | ERROR | Script stopped because an error happened: Add AMEX API failed for MID 001000000044. Status code: 422. Response: {
+  "message" : "Unprocessable Entity",
+  "code" : 422,
+  "errors" : [ {
+    "message" : "must match \"[a-zA-Z0-9]+[a-zA-Z0-9 ]+\"",
+    "localizedMessage" : "Name must be alphanumeric",
+    "location" : "name",
+    "errorCode" : "nameNotAlphanumeric",
+    "domain" : "configuration"
+  } ]
+}
+Traceback (most recent call last):
+  File "/Users/Abdelrahman.Aref/PycharmProjects/payment_channel /main.py", line 112, in main
+    result = process_row(
+             ^^^^^^^^^^^^
+  File "/Users/Abdelrahman.Aref/PycharmProjects/payment_channel /business_logic.py", line 277, in process_row
+    raise RuntimeError(
+RuntimeError: Add AMEX API failed for MID 001000000044. Status code: 422. Response: {
+  "message" : "Unprocessable Entity",
+  "code" : 422,
+  "errors" : [ {
+    "message" : "must match \"[a-zA-Z0-9]+[a-zA-Z0-9 ]+\"",
+    "localizedMessage" : "Name must be alphanumeric",
+    "location" : "name",
+    "errorCode" : "nameNotAlphanumeric",
+    "domain" : "configuration"
+  } ]
+}
+2026-06-05 12:09:01,872 | INFO | Result file created: amex_account_creation_result_20260605_120900.csv
+2026-06-05 12:09:43,316 | INFO | Script started
+2026-06-05 12:09:43,317 | INFO | Reading CSV file: mid_merchant_info.csv
+2026-06-05 12:09:43,318 | INFO | Reading NGEN Excel file: test.xlsx
+2026-06-05 12:09:43,370 | INFO | Input files loaded successfully
+2026-06-05 12:09:43,370 | INFO | NGEN AMEX lookup created with 4 keys
+2026-06-05 12:09:43,370 | INFO | Total rows found in mid_merchant_info.csv: 13
+2026-06-05 12:09:43,370 | INFO | ----------------------------------------
+2026-06-05 12:09:43,370 | INFO | [1/13] Processing CSV row: 2
+2026-06-05 12:09:43,370 | INFO | Started processing row number: 2
+2026-06-05 12:09:43,370 | INFO | mid: 1736692657
+2026-06-05 12:09:43,370 | INFO | attached_to_node_reference: fbec38c1-1f95-489d-8eeb-7ac320deb85e
+2026-06-05 12:09:43,370 | INFO | mid_reference: c5fea869-670a-4784-9160-a445a17d1515
+2026-06-05 12:09:43,370 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,370 | INFO | _type: merchant
+2026-06-05 12:09:43,370 | INFO | Skipping MID 1736692657 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,370 | INFO | Result for row 2, MID 1736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,370 | INFO | ----------------------------------------
+2026-06-05 12:09:43,370 | INFO | [2/13] Processing CSV row: 3
+2026-06-05 12:09:43,370 | INFO | Started processing row number: 3
+2026-06-05 12:09:43,370 | INFO | mid: 200860215413
+2026-06-05 12:09:43,370 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,370 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:43,370 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,370 | INFO | _type: merchant
+2026-06-05 12:09:43,370 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,370 | INFO | Result for row 3, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,370 | INFO | ----------------------------------------
+2026-06-05 12:09:43,370 | INFO | [3/13] Processing CSV row: 4
+2026-06-05 12:09:43,370 | INFO | Started processing row number: 4
+2026-06-05 12:09:43,370 | INFO | mid: 200860215413
+2026-06-05 12:09:43,370 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,370 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:43,370 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,370 | INFO | _type: merchant
+2026-06-05 12:09:43,370 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,370 | INFO | Result for row 4, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,370 | INFO | ----------------------------------------
+2026-06-05 12:09:43,371 | INFO | [4/13] Processing CSV row: 5
+2026-06-05 12:09:43,371 | INFO | Started processing row number: 5
+2026-06-05 12:09:43,371 | INFO | mid: 200860215413
+2026-06-05 12:09:43,371 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,371 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:43,371 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,371 | INFO | _type: merchant
+2026-06-05 12:09:43,371 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | Result for row 5, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | ----------------------------------------
+2026-06-05 12:09:43,371 | INFO | [5/13] Processing CSV row: 6
+2026-06-05 12:09:43,371 | INFO | Started processing row number: 6
+2026-06-05 12:09:43,371 | INFO | mid: 200860215413
+2026-06-05 12:09:43,371 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,371 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:43,371 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,371 | INFO | _type: merchant
+2026-06-05 12:09:43,371 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | Result for row 6, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | ----------------------------------------
+2026-06-05 12:09:43,371 | INFO | [6/13] Processing CSV row: 7
+2026-06-05 12:09:43,371 | INFO | Started processing row number: 7
+2026-06-05 12:09:43,371 | INFO | mid: 200860215413
+2026-06-05 12:09:43,371 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,371 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:43,371 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,371 | INFO | _type: merchant
+2026-06-05 12:09:43,371 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | Result for row 7, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | ----------------------------------------
+2026-06-05 12:09:43,371 | INFO | [7/13] Processing CSV row: 8
+2026-06-05 12:09:43,371 | INFO | Started processing row number: 8
+2026-06-05 12:09:43,371 | INFO | mid: 200860215413
+2026-06-05 12:09:43,371 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,371 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:43,371 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,371 | INFO | _type: merchant
+2026-06-05 12:09:43,371 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | Result for row 8, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | ----------------------------------------
+2026-06-05 12:09:43,371 | INFO | [8/13] Processing CSV row: 9
+2026-06-05 12:09:43,371 | INFO | Started processing row number: 9
+2026-06-05 12:09:43,371 | INFO | mid: 200860215413
+2026-06-05 12:09:43,371 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,371 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:43,371 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,371 | INFO | _type: merchant
+2026-06-05 12:09:43,371 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | Result for row 9, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | ----------------------------------------
+2026-06-05 12:09:43,371 | INFO | [9/13] Processing CSV row: 10
+2026-06-05 12:09:43,371 | INFO | Started processing row number: 10
+2026-06-05 12:09:43,371 | INFO | mid: 200860215413
+2026-06-05 12:09:43,371 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,371 | INFO | mid_reference: e92abc98-ada4-4e54-8a73-40569ee620ec
+2026-06-05 12:09:43,371 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,371 | INFO | _type: merchant
+2026-06-05 12:09:43,371 | INFO | Skipping MID 200860215413 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | Result for row 10, MID 200860215413: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | ----------------------------------------
+2026-06-05 12:09:43,371 | INFO | [10/13] Processing CSV row: 11
+2026-06-05 12:09:43,371 | INFO | Started processing row number: 11
+2026-06-05 12:09:43,371 | INFO | mid: 001736692657
+2026-06-05 12:09:43,371 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,371 | INFO | mid_reference: 6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4
+2026-06-05 12:09:43,371 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:43,371 | INFO | _type: merchant
+2026-06-05 12:09:43,371 | INFO | Skipping MID 001736692657 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | Result for row 11, MID 001736692657: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:43,371 | INFO | ----------------------------------------
+2026-06-05 12:09:43,371 | INFO | [11/13] Processing CSV row: 12
+2026-06-05 12:09:43,371 | INFO | Started processing row number: 12
+2026-06-05 12:09:43,371 | INFO | mid: 001000000044
+2026-06-05 12:09:43,371 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,371 | INFO | mid_reference: af9db4e2-d5a6-4f23-8233-bfef050fa6a0
+2026-06-05 12:09:43,371 | INFO | payment_method: 
+2026-06-05 12:09:43,371 | INFO | _type: merchant
+2026-06-05 12:09:43,371 | INFO | AMEX ID found for MID 001000000044: 9763661477
+2026-06-05 12:09:43,372 | INFO | Resolving merchant reference
+2026-06-05 12:09:43,372 | INFO | Current node type: merchant
+2026-06-05 12:09:43,372 | INFO | Current attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:43,372 | INFO | Node type is merchant. Using attached_to_node_reference directly.
+2026-06-05 12:09:43,372 | INFO | Calling add_amex_account API
+2026-06-05 12:09:43,372 | INFO | POST URL: https://api-gateway-uat.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/
+2026-06-05 12:09:43,372 | INFO | Request payload: {'name': 'amexIdTest', 'midRef': 'af9db4e2-d5a6-4f23-8233-bfef050fa6a0', 'paymentMethod': 'AMERICAN_EXPRESS', 'currency': 'USD', 'channel': [], 'enabled': True, 'amexMid': '9763661477', 'paymentProcessor': 'NETWORK_INTERNATIONAL', 'disabledOperations': ['void'], 'threeDsId': None, 'secretKey': ''}
+2026-06-05 12:09:44,834 | INFO | add_amex_account response status: 201
+2026-06-05 12:09:44,837 | INFO | add_amex_account response body: {
+  "_links" : {
+    "self" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/15dea479-919f-4866-8146-d03ea752e71b"
+    },
+    "enable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/15dea479-919f-4866-8146-d03ea752e71b/enable"
+    },
+    "disable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/15dea479-919f-4866-8146-d03ea752e71b/disable"
+    }
+  },
+  "reference" : "15dea479-919f-4866-8146-d03ea752e71b",
+  "currency" : "USD",
+  "paymentMethod" : {
+    "type" : "card",
+    "name" : "AMERICAN_EXPRESS"
+  },
+  "name" : "amexIdTest",
+  "merchantType" : 5399,
+  "enabled" : true,
+  "channel" : [ "Ecom" ],
+  "secretKey" : "",
+  "mid" : "001000000044",
+  "chainId" : "200080144922",
+  "tids" : [ "123456789123" ],
+  "acquirerId" : "200",
+  "merchantAggregator" : false,
+  "aftInternational" : false,
+  "amexMid" : "9763661477",
+  "merchantPans" : [ ],
+  "paymentProcessor" : "NETWORK_INTERNATIONAL",
+  "nodeConfig" : {
+    "reference" : "15dea479-919f-4866-8146-d03ea752e71b",
+    "currency" : "USD",
+    "paymentMethod" : {
+      "type" : "card",
+      "name" : "AMERICAN_EXPRESS"
+    },
+    "name" : "amexIdTest",
+    "merchantType" : 5399,
+    "enabled" : true,
+    "channel" : [ "Ecom" ],
+    "secretKey" : "",
+    "mid" : "001000000044",
+    "chainId" : "200080144922",
+    "tids" : [ "123456789123" ],
+    "acquirerId" : "200",
+    "merchantAggregator" : false,
+    "aftInternational" : false,
+    "amexMid" : "9763661477",
+    "merchantPans" : [ ],
+    "paymentProcessor" : "NETWORK_INTERNATIONAL"
+  }
+}
+2026-06-05 12:09:44,837 | INFO | AMERICAN_EXPRESS account created successfully for MID: 001000000044
+2026-06-05 12:09:44,838 | INFO | Result for row 12, MID 001000000044: SUCCESS - AMERICAN_EXPRESS account created successfully
+2026-06-05 12:09:44,838 | INFO | ----------------------------------------
+2026-06-05 12:09:44,839 | INFO | [12/13] Processing CSV row: 13
+2026-06-05 12:09:44,839 | INFO | Started processing row number: 13
+2026-06-05 12:09:44,839 | INFO | mid: 500005000
+2026-06-05 12:09:44,839 | INFO | attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:44,839 | INFO | mid_reference: d40ea189-b3d0-458e-beae-08327f0d8945
+2026-06-05 12:09:44,839 | INFO | payment_method: 
+2026-06-05 12:09:44,839 | INFO | _type: merchant
+2026-06-05 12:09:44,839 | INFO | AMEX ID found for MID 500005000: 9762759900
+2026-06-05 12:09:44,839 | INFO | Resolving merchant reference
+2026-06-05 12:09:44,839 | INFO | Current node type: merchant
+2026-06-05 12:09:44,839 | INFO | Current attached_to_node_reference: 4ec64d0d-95ba-43eb-b069-37e203b5c898
+2026-06-05 12:09:44,839 | INFO | Node type is merchant. Using attached_to_node_reference directly.
+2026-06-05 12:09:44,839 | INFO | Calling add_amex_account API
+2026-06-05 12:09:44,839 | INFO | POST URL: https://api-gateway-uat.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/
+2026-06-05 12:09:44,839 | INFO | Request payload: {'name': 'amexIdTest', 'midRef': 'd40ea189-b3d0-458e-beae-08327f0d8945', 'paymentMethod': 'AMERICAN_EXPRESS', 'currency': 'USD', 'channel': [], 'enabled': True, 'amexMid': '9762759900', 'paymentProcessor': 'NETWORK_INTERNATIONAL', 'disabledOperations': ['void'], 'threeDsId': None, 'secretKey': ''}
+2026-06-05 12:09:45,298 | INFO | add_amex_account response status: 201
+2026-06-05 12:09:45,299 | INFO | add_amex_account response body: {
+  "_links" : {
+    "self" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/2736d17a-fb9b-4fea-a750-d52d999128da"
+    },
+    "enable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/2736d17a-fb9b-4fea-a750-d52d999128da/enable"
+    },
+    "disable" : {
+      "href" : "https://api-gateway.sandbox.ngenius-payments.com/config/merchants/4ec64d0d-95ba-43eb-b069-37e203b5c898/configs/accounts/2736d17a-fb9b-4fea-a750-d52d999128da/disable"
+    }
+  },
+  "reference" : "2736d17a-fb9b-4fea-a750-d52d999128da",
+  "currency" : "USD",
+  "paymentMethod" : {
+    "type" : "card",
+    "name" : "AMERICAN_EXPRESS"
+  },
+  "name" : "amexIdTest",
+  "merchantType" : 5399,
+  "enabled" : true,
+  "channel" : [ "Ecom" ],
+  "secretKey" : "",
+  "mid" : "500005000",
+  "chainId" : "200080144922",
+  "tids" : [ ],
+  "acquirerId" : "200",
+  "merchantAggregator" : true,
+  "aftInternational" : false,
+  "amexMid" : "9762759900",
+  "merchantPans" : [ ],
+  "paymentProcessor" : "NETWORK_INTERNATIONAL",
+  "nodeConfig" : {
+    "reference" : "2736d17a-fb9b-4fea-a750-d52d999128da",
+    "currency" : "USD",
+    "paymentMethod" : {
+      "type" : "card",
+      "name" : "AMERICAN_EXPRESS"
+    },
+    "name" : "amexIdTest",
+    "merchantType" : 5399,
+    "enabled" : true,
+    "channel" : [ "Ecom" ],
+    "secretKey" : "",
+    "mid" : "500005000",
+    "chainId" : "200080144922",
+    "tids" : [ ],
+    "acquirerId" : "200",
+    "merchantAggregator" : true,
+    "aftInternational" : false,
+    "amexMid" : "9762759900",
+    "merchantPans" : [ ],
+    "paymentProcessor" : "NETWORK_INTERNATIONAL"
+  }
+}
+2026-06-05 12:09:45,299 | INFO | AMERICAN_EXPRESS account created successfully for MID: 500005000
+2026-06-05 12:09:45,301 | INFO | Result for row 13, MID 500005000: SUCCESS - AMERICAN_EXPRESS account created successfully
+2026-06-05 12:09:45,301 | INFO | ----------------------------------------
+2026-06-05 12:09:45,301 | INFO | [13/13] Processing CSV row: 14
+2026-06-05 12:09:45,301 | INFO | Started processing row number: 14
+2026-06-05 12:09:45,301 | INFO | mid: 0000202408
+2026-06-05 12:09:45,301 | INFO | attached_to_node_reference: f99b56a2-7f55-4164-9ef7-47e83e3e52bf
+2026-06-05 12:09:45,301 | INFO | mid_reference: d942e455-29db-40a5-8822-5d945eb2ef64
+2026-06-05 12:09:45,301 | INFO | payment_method: AMERICAN_EXPRESS
+2026-06-05 12:09:45,301 | INFO | _type: merchant_organisation_unit
+2026-06-05 12:09:45,301 | INFO | Skipping MID 0000202408 because AMERICAN_EXPRESS already exists
+2026-06-05 12:09:45,301 | INFO | Result for row 14, MID 0000202408: SKIPPED - AMERICAN_EXPRESS already exists
+2026-06-05 12:09:45,305 | INFO | Result file created: amex_account_creation_result_20260605_120943.csv
+2026-06-05 12:09:45,305 | INFO | Script completed successfully
