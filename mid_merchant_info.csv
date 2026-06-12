@@ -1,7 +1,8 @@
-mid,attached_to_node_reference,mid_reference,payment_method,_type,enabled
-1736692657,fbec38c1-1f95-489d-8eeb-7ac320deb85e,c5fea869-670a-4784-9160-a445a17d1515,AMERICAN_EXPRESS,merchant,
-200860215413,4ec64d0d-95ba-43eb-b069-37e203b5c898,e92abc98-ada4-4e54-8a73-40569ee620ec,,merchant,
-001736692657,4ec64d0d-95ba-43eb-b069-37e203b5c898,6df089ab-c1c6-46bf-95dc-ed8f9eb8b2a4,AMERICAN_EXPRESS,merchant,
-001000000044,4ec64d0d-95ba-43eb-b069-37e203b5c898,af9db4e2-d5a6-4f23-8233-bfef050fa6a0,,merchant,
-500005000,4ec64d0d-95ba-43eb-b069-37e203b5c898,d40ea189-b3d0-458e-beae-08327f0d8945,,merchant,
-0000202408,f99b56a2-7f55-4164-9ef7-47e83e3e52bf,d942e455-29db-40a5-8822-5d945eb2ef64,AMERICAN_EXPRESS,merchant_organisation_unit,
+mid,attached_to_node_reference,mid_reference,payment_method,_type
+910002408,064f1b5a-7b74-4051-a83b-596e85ca7ee1,8b14e002-765d-4f79-b6df-56f696be07b5,,merchant_organisation_unit
+910002418,064f1b5a-7b74-4051-a83b-596e85ca7ee1,8b14e002-765d-4f79-b6df-56f696be07b5,,merchant_organisation_unit
+3215431567,22e0272d-5215-49ae-9b6f-52d92a8291d1,3af579a0-8ea1-4ece-bfca-ea90e0827939,,merchant_organisation_unit
+919202408,22e0272d-5215-49ae-9b6f-52d92a8291d1,18300948-edc1-4422-8189-00ad45741b23,,merchant_organisation_unit
+919202408,22e0272d-5215-49ae-9b6f-52d92a8291d2,18300948-edc1-4422-8189-00ad45741b24,,merchant_organisation_unit
+910202408,5778348e-0a6e-46d5-986e-13211819453b,8adae338-075b-4b2c-8f1a-5efbe6532cd5,,merchant
+3215431569,1f4b10a7-e0b5-4ca5-aa0d-f548fb78742a,8adae338-075b-4b2c-8f1a-5efbe6532cd5,,merchant
