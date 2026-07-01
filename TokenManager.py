@@ -11,7 +11,7 @@ CLIENT_ID = "transaction-service"
 # CLIENT_SECRET = ""
 
 #prod
-CLIENT_SECRET = "00e0b7af-7fd2-4d13-91bf-5b9adb95a59e"
+CLIENT_SECRET = ""
 
 
 REALM_NAME = "services"

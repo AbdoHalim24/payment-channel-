@@ -1,26 +1,22 @@
 # main.py
 
 """
-Main script.
+Script entry point.
 
-Current behavior:
-1. Read NGEN Excel file.
-2. Add processed column if missing.
-3. Add processing_reason column if missing.
-4. Loop over NGEN rows.
-5. Skip rows where processed == YES.
-6. Use NI MID as MID.
-7. Use AMEX ID as amexMid.
-8. Use mid_merchant_info.csv to get merchant/mid details.
-9. Use mid_mcc.csv to get MCC.
-10. Add AMEX account.
-11. Update the same NGEN Excel file with processing status.
-12. Save progress after every row.
-13. Stop immediately if any error happens.
+This script reads:
+1. mid_mcc.csv
+2. mid_merchant_info.csv
 
-Important:
-- This script updates the same NGEN file directly.
-- Keep a backup of the original file before running.
+It updates mid_mcc.csv directly by adding/updating:
+- processed
+- processing_reason
+
+Behavior:
+- Main loop is over mid_mcc.csv.
+- Rows with processed = YES are skipped.
+- Successful rows are saved immediately.
+- Failed row is marked FAILED and saved immediately.
+- Script stops on first error.
 """
 
 import sys
@@ -30,27 +26,23 @@ import pandas as pd
 from datetime import datetime
 
 from business_logic import (
-    process_ngen_row,
-    build_mcc_lookup,
+    process_mid_mcc_row,
     normalize_value
 )
 
 
-# Main third-party NGEN file.
-# The script will read from and write back to this same file.
-NGEN_LIST_FILE_PATH = "amex_task.xlsx"
+MID_MCC_FILE_PATH = "mid_mcc.csv"
+MID_MERCHANT_INFO_FILE_PATH = "mid_merchant_info.csv"
 
-#Database iformation
-MID_MERCHANT_INFO_FILE_PATH = "MID-merchant-Info.csv"
-MID_MCC_FILE_PATH = "MID-MCC.csv"
-
-RESULT_FILE = f"amex_account_creation_result_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-LOG_FILE = "amex_account_creation.log"
+RESULT_FILE = f"account_creation_result_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+LOG_FILE = "account_creation.log"
 
 
 def setup_logging():
     """
-    Configure logging to console and file.
+    Configure logs to be written to:
+    1. Console
+    2. account_creation.log
     """
 
     logging.basicConfig(
@@ -65,7 +57,7 @@ def setup_logging():
 
 def validate_required_columns(df, required_columns, file_name):
     """
-    Check that required columns exist in the file.
+    Validate required columns exist in a DataFrame.
     """
 
     missing_columns = [
@@ -79,54 +71,51 @@ def validate_required_columns(df, required_columns, file_name):
         )
 
 
-def ensure_tracking_columns(ngen_df):
+def ensure_tracking_columns(mid_mcc_df):
     """
-    Add tracking columns to the NGEN file if missing.
+    Add tracking columns to mid_mcc.csv if missing.
 
     processed:
-        YES     -> row already processed successfully or skipped because AMEX exists
+        YES     -> row processed or skipped because account already exists
         FAILED  -> row failed
 
     processing_reason:
-        Human-readable reason.
+        Explanation of the status.
     """
 
-    if "processed" not in ngen_df.columns:
-        ngen_df["processed"] = ""
+    if "processed" not in mid_mcc_df.columns:
+        mid_mcc_df["processed"] = ""
 
-    if "processing_reason" not in ngen_df.columns:
-        ngen_df["processing_reason"] = ""
+    if "processing_reason" not in mid_mcc_df.columns:
+        mid_mcc_df["processing_reason"] = ""
 
-    return ngen_df
+    return mid_mcc_df
 
 
 def read_input_files():
     """
-    Read all input files:
-    - NGEN Excel file
-    - mid_merchant_info.csv
-    - mid_mcc.csv
+    Read and validate input files.
     """
 
-    logging.info("Reading NGEN Excel file: %s", NGEN_LIST_FILE_PATH)
+    logging.info("Reading MID MCC CSV file: %s", MID_MCC_FILE_PATH)
 
-    ngen_df = pd.read_excel(
-        NGEN_LIST_FILE_PATH,
+    mid_mcc_df = pd.read_csv(
+        MID_MCC_FILE_PATH,
         dtype=str
     )
 
     validate_required_columns(
-        ngen_df,
+        mid_mcc_df,
         [
-            "NI MID",
-            "AMEX ID"
+            "mids",
+            "mcc"
         ],
-        NGEN_LIST_FILE_PATH
+        MID_MCC_FILE_PATH
     )
 
-    ngen_df = ensure_tracking_columns(ngen_df)
+    mid_mcc_df = ensure_tracking_columns(mid_mcc_df)
 
-    logging.info("Reading CSV file: %s", MID_MERCHANT_INFO_FILE_PATH)
+    logging.info("Reading merchant info CSV file: %s", MID_MERCHANT_INFO_FILE_PATH)
 
     mid_merchant_info_df = pd.read_csv(
         MID_MERCHANT_INFO_FILE_PATH,
@@ -145,40 +134,26 @@ def read_input_files():
         MID_MERCHANT_INFO_FILE_PATH
     )
 
-    logging.info("Reading MCC CSV file: %s", MID_MCC_FILE_PATH)
-
-    mid_mcc_df = pd.read_csv(
-        MID_MCC_FILE_PATH,
-        dtype=str
-    )
-
-    validate_required_columns(
-        mid_mcc_df,
-        [
-            "mids",
-            "mcc"
-        ],
-        MID_MCC_FILE_PATH
-    )
-
     logging.info("Input files loaded successfully")
 
-    return ngen_df, mid_merchant_info_df, mid_mcc_df
+    return mid_mcc_df, mid_merchant_info_df
 
 
-def save_ngen_file(ngen_df):
+def save_mid_mcc_file(mid_mcc_df):
     """
-    Save updated processing status back to the same NGEN file.
+    Save progress back to mid_mcc.csv.
+
+    This makes the script resumable.
     """
 
-    ngen_df.to_excel(NGEN_LIST_FILE_PATH, index=False)
+    mid_mcc_df.to_csv(MID_MCC_FILE_PATH, index=False)
 
-    logging.info("NGEN file updated: %s", NGEN_LIST_FILE_PATH)
+    logging.info("MID MCC file updated: %s", MID_MCC_FILE_PATH)
 
 
 def save_results(results):
     """
-    Save processing results to CSV.
+    Save result CSV for audit/debugging.
     """
 
     result_df = pd.DataFrame(results)
@@ -188,84 +163,67 @@ def save_results(results):
 
 
 def main():
-    """
-    Main execution function.
-    """
-
     setup_logging()
 
     logging.info("Script started")
-    logging.info("NGEN file: %s", NGEN_LIST_FILE_PATH)
 
     results = []
 
     try:
-        ngen_df, mid_merchant_info_df, mid_mcc_df = read_input_files()
+        mid_mcc_df, mid_merchant_info_df = read_input_files()
 
-        mcc_lookup = build_mcc_lookup(mid_mcc_df)
+        total_rows = len(mid_mcc_df)
 
-        total_rows = len(ngen_df)
+        logging.info("Total rows found in mid_mcc.csv: %s", total_rows)
 
-        logging.info("Total rows found in NGEN file: %s", total_rows)
-
-        for index, row in ngen_df.iterrows():
+        for index, row in mid_mcc_df.iterrows():
             row_number = index + 2
 
             processed_value = normalize_value(row.get("processed")).upper()
 
             if processed_value == "YES":
                 logging.info(
-                    "Skipping NGEN row %s because processed = YES",
+                    "Skipping row %s because processed = YES",
                     row_number
                 )
                 continue
 
             logging.info("----------------------------------------")
             logging.info(
-                "[%s/%s] Processing NGEN row: %s",
+                "[%s/%s] Processing row: %s",
                 index + 1,
                 total_rows,
                 row_number
             )
 
             try:
-                result = process_ngen_row(
+                result = process_mid_mcc_row(
                     row_number=row_number,
-                    ngen_row=row,
-                    mid_merchant_info_df=mid_merchant_info_df,
-                    mcc_lookup=mcc_lookup
+                    row=row,
+                    mid_merchant_info_df=mid_merchant_info_df
                 )
 
-                ngen_df.at[index, "processed"] = result["processed"]
-                ngen_df.at[index, "processing_reason"] = result["processing_reason"]
-
-                logging.info(
-                    "Result for NGEN row %s, MID %s: %s - %s",
-                    row_number,
-                    result["mid"],
-                    result["processed"],
-                    result["processing_reason"]
-                )
+                mid_mcc_df.at[index, "processed"] = result["processed"]
+                mid_mcc_df.at[index, "processing_reason"] = result["processing_reason"]
 
                 results.append(result)
 
-                # Save after every processed/skipped row.
-                # This prevents losing progress if the script stops later.
-                save_ngen_file(ngen_df)
+                # Save after every successful/skipped row.
+                save_mid_mcc_file(mid_mcc_df)
 
             except Exception as row_error:
                 error_message = str(row_error)
 
                 logging.exception(
-                    "Error happened while processing NGEN row %s: %s",
+                    "Error happened while processing row %s: %s",
                     row_number,
                     error_message
                 )
 
-                ngen_df.at[index, "processed"] = "FAILED"
-                ngen_df.at[index, "processing_reason"] = error_message
+                mid_mcc_df.at[index, "processed"] = "FAILED"
+                mid_mcc_df.at[index, "processing_reason"] = error_message
 
-                failed_mid = normalize_value(row.get("NI MID"))
+                failed_mid = normalize_value(row.get("mids"))
 
                 results.append({
                     "mid": failed_mid,
@@ -273,13 +231,13 @@ def main():
                     "processing_reason": error_message
                 })
 
-                save_ngen_file(ngen_df)
+                # Save failure immediately before stopping.
+                save_mid_mcc_file(mid_mcc_df)
                 save_results(results)
 
-                logging.error("Script stopped because an error happened.")
                 sys.exit(1)
 
-        save_ngen_file(ngen_df)
+        save_mid_mcc_file(mid_mcc_df)
         save_results(results)
 
         logging.info("Script completed successfully")
