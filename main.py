@@ -38,11 +38,11 @@ from business_logic import (
 
 # Main third-party NGEN file.
 # The script will read from and write back to this same file.
-NGEN_LIST_FILE_PATH = "NGEN_MCC_AMEX_PAYFAC_test_updated.xlsx"
+NGEN_LIST_FILE_PATH = "amex_task.xlsx"
 
 #Database iformation
-MID_MERCHANT_INFO_FILE_PATH = "mid_merchant_info.csv"
-MID_MCC_FILE_PATH = "mid_mcc.csv"
+MID_MERCHANT_INFO_FILE_PATH = "MID-merchant-Info.csv"
+MID_MCC_FILE_PATH = "MID-MCC.csv"
 
 RESULT_FILE = f"amex_account_creation_result_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
 LOG_FILE = "amex_account_creation.log"

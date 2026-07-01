@@ -4,14 +4,14 @@ import time
 
 import requests
 
-IDENTITY_URL = "https://api-gateway-uat.ngenius-payments.com/identity/auth/access-token"
+IDENTITY_URL = "https://api-gateway.ngenius-payments.com/identity/auth/access-token"
 
 CLIENT_ID = "transaction-service"
 #uat
-CLIENT_SECRET = "c5fe74d5-9324-412a-bee1-55a1018d625e"
+# CLIENT_SECRET = ""
 
 #prod
-# CLIENT_SECRET = "00e0b7af-7fd2-4d13-91bf-5b9adb95a59e"
+CLIENT_SECRET = "00e0b7af-7fd2-4d13-91bf-5b9adb95a59e"
 
 
 REALM_NAME = "services"

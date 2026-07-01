@@ -12,7 +12,7 @@ import requests
 from TokenManager import TokenManager
 
 
-BASE_URL = "https://api-gateway-uat.ngenius-payments.com/config"
+BASE_URL = "https://api-gateway.ngenius-payments.com/config"
 
 API_HEADERS_TEMPLATE = {
     "Accept": "application/vnd.ni-config.v1+json",
